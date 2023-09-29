@@ -1,0 +1,15 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fact-text {
+  text-wrap: balance;
+  max-width: 24rem;
+  text-align: center;
+}
+.box-img {
+  width: 24rem;
+}
