@@ -11,12 +11,15 @@ export function App() {
   }
   return (
     <main>
-      <h1>App de gatitos</h1>
+      <h1>Cat App</h1>
       <button onClick={handleClick}>New fact</button>
       {fact && <p className="fact-text">{fact}</p>}
       {imageUrl && (
         <div className="box-img">
-          <img src={imageUrl} alt={`Image extracted using the ${fact}`} />
+          <img
+            src={imageUrl}
+            alt={`Image extracted using the first three words of ${fact}`}
+          />
         </div>
       )}
     </main>
