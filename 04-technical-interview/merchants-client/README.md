@@ -4,7 +4,7 @@ We want to present our users with a list of merchants so that they can explore c
 that will return a json object representing a list of merchant data (`src/mockData/merchantData.json`).
 
 We would like you to consume this API and build a front-end interface for a merchant list that our users can interact with and filter based on different parameters. Please refer to the following
-[Figma mock](https://www.figma.com/file/2Z1vviiNqvMJPmY70QY6Wr/Front-End-Take-Home?type=design&node-id=0%3A1&mode=design&t=Y44XfQLStDiOIGgh-1) for a basic design.
+[Figma mock](https://www.figma.com/file/2Z1vviiNqvMJPmY70QY6Wr/Front-End-Take-Home?type=design&node-id=0%3A1&mode=design&t=**Y44XfQLStDiOIGgh**-1) for a basic design.
 
 Please use React to solve this coding challenge.
 
@@ -35,13 +35,6 @@ The server should now be running; keep it open in the background to receive api 
 You can now navigate back to the root folder and initialize your application into another directory.
 
 
-## Dudas
-
-Preguntar que no estoy seguro sobre este punto pero que sería tan fácil como ententer cual tiene preferencia 'live' o 'coming_soon'
-
-  - Make sure that you ignore any duplicate merchants that are returned. If a merchant has a "live" status, you should also ignore stale data for that merchant.
-
-
 ## TO DO
 
 - [X] Represent a list of merchants provided from the json result of the apiResponse.
@@ -50,6 +43,7 @@ Preguntar que no estoy seguro sobre este punto pero que sería tan fácil como e
 - [X] Fetch data from the API
 - [X] Move remove duplicate to services
 - [X] Add filters users
+- [ ] Add the URL to the figures
 - [ ] Add some tests
-- [ ] Improve styles
-- [ ] Deploy the server and client 
+- [X] Improve styles
+- [X] Deploy the server and client 

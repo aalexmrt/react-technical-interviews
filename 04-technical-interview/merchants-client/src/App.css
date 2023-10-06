@@ -1,3 +1,24 @@
+.page {
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+  place-content: center;
+  min-height: 100vh;
+  margin: auto;
+}
+@media screen and (max-width: 800px) {
+  .page {
+    padding-top: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    grid-template-rows: min-content min-content;
+    min-height: unset;
+  }
+}
+.page > h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+}
 main {
   display: grid;
   align-items: center;

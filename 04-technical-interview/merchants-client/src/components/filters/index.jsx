@@ -1,6 +1,8 @@
 import { useId } from 'react'
 import { useFilters } from '../../hooks/useFilters'
 
+import './styles.css'
+
 export function Filters() {
   const { filters, setFilters } = useFilters()
 
@@ -29,7 +31,7 @@ export function Filters() {
           id={minRewardsRateFilterId}
           min="0"
           max="0.15"
-          step="0.025"
+          step="0.01"
           onChange={handleChangeMinRewardsRate}
           value={filters.minRewardsRate}
         ></input>

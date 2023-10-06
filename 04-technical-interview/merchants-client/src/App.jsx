@@ -14,9 +14,9 @@ function App() {
 
   return (
     <div className="page">
-      <header>
-        <Filters />
-      </header>
+      <h1>Discover stores</h1>
+
+      <Filters />
       <main>
         {merchantsFiltered.length > 0 ? (
           <Merchants filteredMerchants={merchantsFiltered} />
