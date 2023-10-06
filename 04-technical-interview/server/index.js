@@ -9,7 +9,7 @@ const port = process.env.PORT || 3030
 
 app.use(cors())
 
-const merchantData = JSON.parse(fs.readFileSync('./mockData/merchantData.json'))
+// const merchantData = JSON.parse(fs.readFileSync('./mockData/merchantData.json'))
 
 const appendImgs = async () => {
   try {
@@ -38,11 +38,11 @@ app.get('/', (req, res) => {
   res.send('This is the API running!')
 })
 
-app.get('/api/merchants/', async (req, res) => {
-  res.status(200)
-  res.setHeader('Content-Type', 'application/json')
-  await appendImgs()
-  res.json(merchantData)
-})
+// app.get('/api/merchants/', async (req, res) => {
+//   res.status(200)
+//   res.setHeader('Content-Type', 'application/json')
+//   await appendImgs()
+//   res.json(merchantData)
+// })
 
 module.exports = app
