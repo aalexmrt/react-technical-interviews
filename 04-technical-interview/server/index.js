@@ -34,6 +34,10 @@ const appendImgs = async () => {
 
 app.listen(port, () => console.log(`Listening on port ${port}`))
 
+app.get('/', (req, res) => {
+  res.send('This is the API running!')
+})
+
 app.get('/api/merchants/', async (req, res) => {
   res.status(200)
   res.setHeader('Content-Type', 'application/json')
