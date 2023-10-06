@@ -43,7 +43,9 @@ You can now navigate back to the root folder and initialize your application int
 - [X] Fetch data from the API
 - [X] Move remove duplicate to services
 - [X] Add filters users
-- [ ] Add the URL to the figures
-- [ ] Add some tests
+- [X] Add the URL to the figures
+- [X] Add some tests
+- [X] Improve grid system and switch figures per <ul> list 
 - [X] Improve styles
 - [X] Deploy the server and client 
+- [ ] Push the repository and send it 

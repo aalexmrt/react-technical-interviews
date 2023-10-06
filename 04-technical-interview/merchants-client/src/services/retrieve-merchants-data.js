@@ -16,7 +16,7 @@ export async function retrieveMerchantsData() {
       id: merchant.id,
       name: merchant.name,
       liveStatus: merchant.live_status,
-      rewardsRate: merchant.rewards_rate,
+      rewardsRate: merchant.rewards_rate.toFixed(2),
       url: merchant.url,
       shopBackgroundImgBase64: merchant.shop_background_img_base64,
     }))

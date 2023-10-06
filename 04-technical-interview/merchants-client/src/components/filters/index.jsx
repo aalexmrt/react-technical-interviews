@@ -1,3 +1,4 @@
+// filters component
 import { useId } from 'react'
 import { useFilters } from '../../hooks/useFilters'
 

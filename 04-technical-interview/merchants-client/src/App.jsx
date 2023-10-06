@@ -15,15 +15,8 @@ function App() {
   return (
     <div className="page">
       <h1>Discover stores</h1>
-
       <Filters />
-      <main>
-        {merchantsFiltered.length > 0 ? (
-          <Merchants filteredMerchants={merchantsFiltered} />
-        ) : (
-          <p>No merchants found</p>
-        )}
-      </main>
+      <Merchants merchantsFiltered={merchantsFiltered} />
     </div>
   )
 }

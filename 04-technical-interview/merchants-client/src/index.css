@@ -26,6 +26,7 @@ html {
   scrollbar-color: rgb(170, 170, 170) #fff;
   scrollbar-color: var(--scrollbar-thumb) var(--background-body);
   scrollbar-width: thin;
+  overflow-y: scroll;
 }
 
 body {
@@ -117,13 +118,7 @@ input[type='radio'] {
   height: 1em;
   width: 1em;
 }
-input:not([type='checkbox']):not([type='radio']),
-input[type='range'],
-select,
-button,
-textarea {
-  -webkit-appearance: none;
-}
+
 input:focus {
   box-shadow: 0 0 0 2px #0096bfab;
   box-shadow: 0 0 0 2px var(--focus);
