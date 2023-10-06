@@ -1,0 +1,98 @@
+[
+  {
+    "id": "catch-ioiwje100",
+    "name": "Catch",
+    "url": "https://nytimes.com",
+    "live_status": "coming_soon",
+    "rewards_rate": 0.2,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "lululemon-as230m",
+    "name": "Lululemon",
+    "url": "https://shop.lululemon.com/",
+    "live_status": "coming_soon",
+    "rewards_rate": 0.1,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "merch-by-catch-we8923",
+    "name": "Merch by Catch",
+    "url": "https://merch.nytimes.com",
+    "live_status": "live",
+    "rewards_rate": 0.15,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "catch-ioiwje100",
+    "name": "Catch",
+    "url": "https://nytimes.com",
+    "live_status": "live",
+    "rewards_rate": 0.2,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "nike-sd023a",
+    "name": "Nike",
+    "url": "https://www.nike.com/",
+    "live_status": "coming_soon",
+    "rewards_rate": 0.05,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "birdies-wem691s",
+    "name": "Birdies",
+    "url": "https://birdies.com/",
+    "live_status": "live",
+    "rewards_rate": 0.1,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "birdies-wem691s",
+    "name": "Birdies",
+    "url": "https://birdies.com",
+    "live_status": "coming_soon",
+    "rewards_rate": 0.1,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "modern-citizen-mc111e",
+    "name": "Modern Citizen",
+    "url": "https://www.moderncitizen.com/",
+    "live_status": "coming_soon",
+    "rewards_rate": 0.075,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "terez-123s",
+    "name": "Terez",
+    "url": "https://www.terez.com/",
+    "live_status": "coming_soon",
+    "rewards_rate": 0.05,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "terez-123s",
+    "name": "Terez",
+    "url": "https://www.terez.com/",
+    "live_status": "live",
+    "rewards_rate": 0.05,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "modern-citizen-mc111e",
+    "name": "Modern Citizen",
+    "url": "https://www.moderncitizen.com/",
+    "live_status": "live",
+    "rewards_rate": 0.075,
+    "shop_background_img_base64": ""
+  },
+  {
+    "id": "dossier-dd012d",
+    "name": "Dossier",
+    "url": "https://dossier.co/",
+    "live_status": "live",
+    "rewards_rate": 0.1,
+    "shop_background_img_base64": ""
+  }
+]
