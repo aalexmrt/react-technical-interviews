@@ -45,7 +45,7 @@ You can now navigate back to the root folder and initialize your application int
 - [X] Add filters users
 - [X] Add the URL to the figures
 - [X] Add some tests
-- [X] Improve grid system and switch figures per <ul> list 
+- [X] Improve grid system and switch figures per list 
 - [X] Improve styles
 - [X] Deploy the server and client 
-- [ ] Push the repository and send it 
+- [X  ] Push the repository and send it 
