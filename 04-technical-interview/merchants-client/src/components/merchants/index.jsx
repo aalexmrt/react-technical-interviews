@@ -1,8 +1,10 @@
+import { Spinner } from '../spinner'
+
 import './styles.css'
 
 function MerchantsList({ merchants }) {
   return (
-    <main>
+    <>
       <ul className="merchants-list">
         {merchants.map((merchant, key) => {
           const {
@@ -33,23 +35,38 @@ function MerchantsList({ merchants }) {
           )
         })}
       </ul>
-    </main>
+    </>
   )
 }
 function ResultsNotFound() {
   return (
-    <main>
+    <>
       <div className="merchants-empty">
         <p className="p-info">No results found 😢</p>
       </div>
-    </main>
+    </>
   )
 }
-export function Merchants({ merchantsFiltered }) {
+function LoadSpinner() {
+  return (
+    <>
+      <div className="spinner-box">
+        <Spinner />
+      </div>
+    </>
+  )
+}
+export function Merchants({ merchantsFiltered, loading }) {
   const hasMerchants = merchantsFiltered?.length > 0
-  return hasMerchants ? (
-    <MerchantsList merchants={merchantsFiltered} />
-  ) : (
-    <ResultsNotFound />
+  console.log(loading)
+  return (
+    <main>
+      {loading && <LoadSpinner />}
+      {loading || hasMerchants ? (
+        <MerchantsList merchants={merchantsFiltered} />
+      ) : (
+        <ResultsNotFound />
+      )}
+    </main>
   )
 }

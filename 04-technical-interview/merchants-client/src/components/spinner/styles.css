@@ -1,22 +1,3 @@
-.p-loading-box {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(6rem, 1fr));
-  grid-template-rows: repeat(2, minmax(6rem, 1fr));
-  gap: 1rem;
-}
-
-.p-info {
-  font-weight: bold;
-  font-size: 1.5rem;
-  justify-self: center;
-  justify-items: center;
-  grid-column: 1 / -1;
-}
-
 .dots-spinner {
   display: inline-block;
   margin-left: 10px;
