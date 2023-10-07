@@ -7,7 +7,8 @@ import { useMerchants } from './hooks/useMerchants'
 import './App.css'
 
 function App() {
-  const { merchants } = useMerchants()
+  const { merchants, loading, error } = useMerchants()
+
   const { filterProducts } = useFilters()
 
   const merchantsFiltered = filterProducts(merchants)
@@ -16,7 +17,12 @@ function App() {
     <div className="page">
       <h1>Discover stores</h1>
       <Filters />
-      <Merchants merchantsFiltered={merchantsFiltered} />
+      {loading && (
+        <main>
+          <p className="p-info">Loading...</p>
+        </main>
+      )}
+      {loading || <Merchants merchantsFiltered={merchantsFiltered} />}
     </div>
   )
 }

@@ -40,7 +40,7 @@ function ResultsNotFound() {
   return (
     <main>
       <div className="merchants-empty">
-        <p className="">No results found 😢</p>
+        <p className="p-info">No results found 😢</p>
       </div>
     </main>
   )

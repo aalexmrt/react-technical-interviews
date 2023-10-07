@@ -38,13 +38,7 @@ main {
     flex-basis: 16rem;
   }
 }
-.merchants-empty > p {
-  font-weight: bold;
-  font-size: 1.5rem;
-  justify-self: center;
-  justify-items: center;
-  grid-column: 1 / -1;
-}
+
 .merchants-list > li {
   border-radius: 0.25rem;
   overflow: hidden;
