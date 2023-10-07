@@ -48,4 +48,4 @@ You can now navigate back to the root folder and initialize your application int
 - [X] Improve grid system and switch figures per list 
 - [X] Improve styles
 - [X] Deploy the server and client 
-- [X  ] Push the repository and send it 
+- [X] Push the repository and send it 
