@@ -1,15 +1,19 @@
+#root {
+  display: grid;
+}
 .page {
   display: flex;
+  place-self: center;
   flex-direction: column;
-  place-content: center;
   padding-left: 5rem;
   padding-right: 5rem;
-  min-height: 100vh;
+  width: 70%;
   min-width: 330px;
 }
 @media screen and (max-width: 1024px) {
   .page {
     min-height: unset;
+    width: 80%;
   }
 }
 @media screen and (max-width: 648px) {

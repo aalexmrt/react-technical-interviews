@@ -19,3 +19,9 @@
   align-items: center;
   gap: 1rem;
 }
+
+@media screen and (max-width: 400px) {
+  .filters div input[type='range'] {
+    width: 36%;
+  }
+}
