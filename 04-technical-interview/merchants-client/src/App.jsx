@@ -1,5 +1,6 @@
 import { Filters } from './components/filters'
 import { Merchants } from './components/merchants'
+import { Spinner } from './components/spinner'
 
 import { useFilters } from './hooks/useFilters'
 import { useMerchants } from './hooks/useMerchants'
@@ -7,7 +8,7 @@ import { useMerchants } from './hooks/useMerchants'
 import './App.css'
 
 function App() {
-  const { merchants, loading, error } = useMerchants()
+  const { merchants, loading } = useMerchants()
 
   const { filterProducts } = useFilters()
 
@@ -19,7 +20,7 @@ function App() {
       <Filters />
       {loading && (
         <main>
-          <p className="p-info">Loading...</p>
+          <Spinner />
         </main>
       )}
       {loading || <Merchants merchantsFiltered={merchantsFiltered} />}
