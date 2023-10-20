@@ -61,12 +61,7 @@ export function Merchants({ merchantsFiltered, loading }) {
   console.log(loading)
   return (
     <main>
-      {loading && <LoadSpinner />}
-      {loading || hasMerchants ? (
-        <MerchantsList merchants={merchantsFiltered} />
-      ) : (
-        <ResultsNotFound />
-      )}
+      <LoadSpinner />
     </main>
   )
 }
